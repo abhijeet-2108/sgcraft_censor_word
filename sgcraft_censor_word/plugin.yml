@@ -1,0 +1,11 @@
+name: sgcraft_censor_word
+main: me.arrow.sgcraft_censor_word.Main
+version: 1.3
+author: Arr0w
+commands:
+    censorword:
+      usage: /<command>
+permission:
+    censorword.wordconfig.service:
+      default: op
+      description: Can manage the censor word plugin

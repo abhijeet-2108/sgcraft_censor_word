@@ -1,0 +1,121 @@
+wordconfig:
+  service: true
+  reload: "&kaa &2Reload Completed &f&kaa "
+  amount: 37
+  help:
+    - "&kaa &6/censorword add <word> <replaceword> &afor adding extra word &f&kaa"
+    - "&kaa &6/censorword reload &afor reloading config file &f&kaa"
+    - "&kaa &6/censorword help &ato see this command list &f&kaa"
+
+filter: 
+  word0:
+    word: (s+(\W|\d|_)*h+(\W|\d|_)*i+(\W|\d|_)*t+(\W|\d|_)*)
+    replaceword: "poop"
+  word1:
+    word: (f+(\W|\d|_)*u+(\W|\d|_)*c+(\W|\d|_)*k+(\W|\d|_)*)
+    replaceword: "fork"
+  word2:
+    word: (n+(\W|\d|_)*i+(\W|\d|_)*g+(\W|\d|_)*a+(\W|\d|_)*)
+    replaceword: "kid"
+  word3:
+    word: (d+(\W|\d|_)*i+(\W|\d|_)*c+(\W|\d|_)*k+(\W|\d|_)*)
+    replaceword: "stick"
+  word4:
+    word: (a+(\W|\d|_)*s+(\W|\d|_)*h+(\W|\d|_)*o+(\W|\d|_)*l+(\W|\d|_)*e+(\W|\d|_)*)
+    replaceword: "ground floor"
+  word5:
+    word: (b+(\W|\d|_)*i+(\W|\d|_)*t+(\W|\d|_)*c+(\W|\d|_)*h+(\W|\d|_)*)
+    replaceword: "girl"
+  word6:
+    word: (b+(\W|\d|_)*a+(\W|\d|_)*s+(\W|\d|_)*t+(\W|\d|_)*a+(\W|\d|_)*r+(\W|\d|_)*d+(\W|\d|_)*)
+    replaceword: "child"
+  word7:
+    word: (c+(\W|\d|_)*u+(\W|\d|_)*n+(\W|\d|_)*t+(\W|\d|_)*)
+    replaceword: "brave"
+  word8:
+    word: (a+(\W|\d|_)*n+(\W|\d|_)*a+(\W|\d|_)*l+(\W|\d|_)*)
+    replaceword: "sky"
+  word9:
+    word: (d+(\W|\d|_)*r+(\W|\d|_)*u+(\W|\d|_)*g+(\W|\d|_)*)
+    replaceword: "powder"
+  word10:
+    word: (a+(\W|\d|_)*n+(\W|\d|_)*a+(\W|\d|_)*s+(\W|\d|_)*)
+    replaceword: "sky"
+  word11:
+    word: (m+(\W|\d|_)*o+(\W|\d|_)*t+(\W|\d|_)*h+(\W|\d|_)*e+(\W|\d|_)*r+(\W|\d|_)*f+(\W|\d|_)*u+(\W|\d|_)*c+(\W|\d|_)*k+(\W|\d|_)*)
+    replaceword: "sgcraft"
+  word12:
+    word: (a+(\W|\d|_)*s+(\W|\d|_)*)
+    replaceword: "bumm"
+  word13:
+    word: (s+(\W|\d|_)*e+(\W|\d|_)*x+(\W|\d|_)*)
+    replaceword: "gender"
+  word14:
+    word: (b+(\W|\d|_)*o+(\W|\d|_)*b+(\W|\d|_)*)
+    replaceword: "hand"
+  word15:
+    word: (b+(\W|\d|_)*o+(\W|\d|_)*n+(\W|\d|_)*e+(\W|\d|_)*r+(\W|\d|_)*)
+    replaceword: "diabetes"
+  word16:
+    word: (h+(\W|\d|_)*o+(\W|\d|_)*r+(\W|\d|_)*n+(\W|\d|_)*y+(\W|\d|_)*)
+    replaceword: "Fbi officer"
+  word17:
+    word: (n+(\W|\d|_)*u+(\W|\d|_)*d+(\W|\d|_)*e+(\W|\d|_)*)
+    replaceword: "cookies"
+  word18:
+    word: (s+(\W|\d|_)*e+(\W|\d|_)*x+(\W|\d|_)*y+(\W|\d|_))
+    replaceword: "gender"
+  word19:
+    word: (h+(\W|\d|_)*e+(\W|\d|_)*n+(\W|\d|_)*t+(\W|\d|_)*a+(\W|\d|_)*i+(\W|\d|_)*)
+    replaceword: "doraemon"
+  word20:
+    word: (p+(\W|\d|_)*u+(\W|\d|_)*s+(\W|\d|_)*s+(\W|\d|_)*y+(\W|\d|_)*)
+    replaceword: "dog"
+  word21:
+    word: (v+(\W|\d|_)*a+(\W|\d|_)*g+(\W|\d|_)*i+(\W|\d|_)*n+(\W|\d|_)*a+(\W|\d|_)*)
+    replaceword: "Los Vegas"
+  word22:
+    word: (f+(\W|\d|_)*a+(\W|\d|_)*g+(\W|\d|_)*g+(\W|\d|_)*o+(\W|\d|_)*t+(\W|\d|_)*)
+    replaceword: "handsome"
+  word23:
+    word: (j+(\W|\d|_)*e+(\W|\d|_)*r+(\W|\d|_)*k+(\W|\d|_)*o+(\W|\d|_)*f+(\W|\d|_)*)
+    replaceword: "signing off"
+  word24:
+    word: (j+(\W|\d|_)*e+(\W|\d|_)*r+(\W|\d|_)*k+(\W|\d|_)*)
+    replaceword: "torque"
+  word25:
+    word: (r+(\W|\d|_)*a+(\W|\d|_)*p+(\W|\d|_)*e+(\W|\d|_)*)
+    replaceword: "leave"
+  word26:
+    word: (r+(\W|\d|_)*a+(\W|\d|_)*p+(\W|\d|_)*i+(\W|\d|_)*s+(\W|\d|_)*t+(\W|\d|_)*)
+    replaceword: "bad person"
+  word27:
+    word: (c+(\W|\d|_)*o+(\W|\d|_)*c+(\W|\d|_)*k+(\W|\d|_)*)
+    replaceword: "stick"
+  word28:
+    word: (w+(\W|\d|_)*h+(\W|\d|_)*o+(\W|\d|_)*r+(\W|\d|_)*e+(\W|\d|_)*)
+    replaceword: "girl"
+  word29:
+    word: ( s+(\W|\d|_)*l+(\W|\d|_)*u+(\W|\d|_)*t+(\W|\d|_)*)
+    replaceword: "girl"
+  word30:
+    word: (t+(\W|\d|_)*i+(\W|\d|_)*t+(\W|\d|_)*)
+    replaceword: "instagram"
+  word31:
+    word: (t+(\W|\d|_)*e+(\W|\d|_)*s+(\W|\d|_)*t+(\W|\d|_)*i+(\W|\d|_)*c+(\W|\d|_)*l+(\W|\d|_)*e+(\W|\d|_)*)
+    replaceword: "stick"
+  word32:
+    word: (w+(\W|\d|_)*t+(\W|\d|_)*f+(\W|\d|_)*)
+    replaceword: "wth"
+  word33:
+    word: (p+(\W|\d|_)*e+(\W|\d|_)*n+(\W|\d|_)*i+(\W|\d|_)*s+(\W|\d|_)*)
+    replaceword: "stick"
+  word34:
+    word: (p+(\W|\d|_)*i+(\W|\d|_)*s+(\W|\d|_)*s+(\W|\d|_)*)
+    replaceword: "water"
+  word35:
+    word: (b+(\W|\d|_)*u+(\W|\d|_)*l+(\W|\d|_)*s+(\W|\d|_)*h+(\W|\d|_)*i+(\W|\d|_)*t+(\W|\d|_)*)
+    replaceword: "holy sheep"
+  word36:
+    word: (n+(\W|\d|_)*u+(\W|\d|_)*d+(\W|\d|_)*e+(\W|\d|_)*s+(\W|\d|_)*)
+    replaceword: "cookies"
